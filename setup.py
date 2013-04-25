@@ -21,7 +21,7 @@ setup(
     keywords = 'plone',
     author = 'Laurence Rowe',
     author_email = 'lrowe@shuttlethread.com',
-    url='https://github.com/shuttlethread/collective.portletclass',
+    url='https://github.com/collective/collective.portletclass',
     license = 'GPL version 2',
     packages = find_packages('src'),
     package_dir = {'': 'src'},
