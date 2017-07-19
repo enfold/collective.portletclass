@@ -37,7 +37,6 @@ setup(
         'z3c.jbot',
         'zope.component',
         'zope.event',
-        'zope.formlib',
         'zope.i18nmessageid',
         'zope.interface',
         'zope.lifecycleevent',

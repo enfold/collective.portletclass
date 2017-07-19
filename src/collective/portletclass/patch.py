@@ -1,9 +1,9 @@
 import zope.event
 
 from plone.portlets.interfaces import IPortletAssignment
+from z3c.form.field import Fields
 from zope.component import adapts
 from zope.interface import implements
-from zope.formlib import form
 from zope.lifecycleevent import ObjectCreatedEvent
 
 from .interfaces import ICollectivePortletClassLayer, ICollectivePortletClass
@@ -16,7 +16,7 @@ def collective_portletclass__init__(self, context, request):
     self.context = context
     self.request = request
     if ICollectivePortletClassLayer.providedBy(self.request):
-        self.form_fields = self.form_fields + form.Fields(portletclass_field)
+        self.fields = self.fields + Fields(portletclass_field)
 
 def collective_portletclass_createAndAdd(self, data):
     # Patch the createAndAdd method of portlet add forms to remove the

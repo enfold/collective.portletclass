@@ -1,6 +1,13 @@
 Changelog
 =========
 
+1.1 - Unreleased
+----------------
+
+- Make the product Plone 5 compatible
+  [frapell]
+
+
 1.0 - 2013-02-24
 ----------------
 
