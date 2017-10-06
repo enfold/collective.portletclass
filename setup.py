@@ -1,7 +1,7 @@
 import os.path
 from setuptools import setup, find_packages
 
-version = '1.0'
+version = '1.0+enfold1'
 
 setup(
     name = 'collective.portletclass',
